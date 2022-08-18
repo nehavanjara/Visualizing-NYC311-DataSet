@@ -19,4 +19,18 @@ Richmond County- STATEN ISLAND
 Queens County -QUEENS
 I now filtered the program type column so that we just have the Postcensal Population Estimate and Intercensal Population Estimate. From the new data set we select three columns namely Population, Borough and Year and from the nyc311 data set we select Borough, ComplaintType, IncidentZip, CreatedDate, ClosedDate and Year. For both the dataset we filter out the above mentioned five Boroughs from Fig 3. In addition, we considered the data from 2005 till 2015. We then join both the data sets using Inner Join.
 
-# 
+# Tidying the Data Set
+
+Firstly, we remove the missing values from the dataset. After removing the missing values, we’re left with 52 columns and 8293313 rows. We then remove the duplicate rows. Before doing that we need to delete the Unique Key column as even if the same complaint is raised more than once, it’s still going to have different Unique Id. Hence, Inorder to get distinct rows, it is necessary to get rid of the Unique Key column first. Now we’re left with 51 columns and 7455520 rows.
+
+# Aim 
+● Which agency receives the most complaints.
+● Which month received the most amount of complaints.
+● Which was the highest number of complaint types.
+● Which Boroughs have the highest number of heating complaints.
+● The change in number of calls with the rise of population.
+
+# Run 
+1- Download both the datasets and the rmd file and save them in the same folder.
+2- Set the directory.
+3- Run the file chunk wise.
