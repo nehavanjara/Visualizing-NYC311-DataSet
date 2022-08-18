@@ -25,12 +25,18 @@ Firstly, we remove the missing values from the dataset. After removing the missi
 
 # Aim 
 ● Which agency receives the most complaints.
+
 ● Which month received the most amount of complaints.
+
 ● Which was the highest number of complaint types.
+
 ● Which Boroughs have the highest number of heating complaints.
+
 ● The change in number of calls with the rise of population.
 
 # Run 
 1- Download both the datasets and the rmd file and save them in the same folder.
+
 2- Set the directory.
+
 3- Run the file chunk wise.
