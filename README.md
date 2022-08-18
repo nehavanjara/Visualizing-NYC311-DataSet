@@ -1,5 +1,5 @@
 # Visualizing-NYC311-DataSet
-#Analyzing Heating Complaint Type of NYC311 DatsSet. This data is New York City’s primary source of government information and
+Analyzing Heating Complaint Type of NYC311 DatsSet. This data is New York City’s primary source of government information and
 non-emergency services. 311 is a phone number, used in the US, that allows callers to raise a non-emergency complaint. In our analysis, we decided to focus our report around Heating Complaint
 Type.
 # The Data Set
