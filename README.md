@@ -5,11 +5,10 @@ Type.
 # The Data Set
 The 311 DataSet has 52 columns and 912493 rows. Each row represents
 a complaint call. The DataSet also has many missing values and could
-possibly have duplicate rows.The nyc311 dataset link is https://drive.google.com/file/d/1rdtby7bZPlQODkUr8k2j8C4n7x6oAysR/view?usp=sharing.
+possibly have duplicate rows. You can download the NYC311 Dataset [here](https://drive.google.com/file/d/1rdtby7bZPlQODkUr8k2j8C4n7x6oAysR/view?usp=sharing).
 
 # Joining the Dataset with another Dataset
-The NYC Population data set was downloaded from
-https://data.ny.gov/Government-Finance/Annual-Population-Estimates-forNew-York-State-and/krt9-ym2k. The DataSet has 52 columns and 912493
+The NYC Population data set was downloaded from [NY Government Website](https://data.ny.gov/Government-Finance/Annual-Population-Estimates-forNew-York-State-and/krt9-ym2k). The DataSet has 52 columns and 912493
 rows. Each row represents a population of the different states of New York.
 The population data set had 5 columns and 3654 rows. The second column was named Geography which we changed into Borough so that it matches our Borough column of nyc311 dataset. In the Borough column we replaced the below data values:
 
